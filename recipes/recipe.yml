@@ -21,17 +21,17 @@ modules:
     repos:
       copr:
         - atim/starship
-      keys:
-        - https://downloads.1password.com/linux/keys/1password.asc
+     # keys:
+      #  - https://downloads.1password.com/linux/keys/1password.asc
     install:
       packages:
         - nvim
-        - yazi
+     #   - yazi
         - zoxide
         - tmux
         - zsh
         - kitty
-        - 1password
+     #   - 1password
     remove:
       packages:
         - firefox
