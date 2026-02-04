@@ -26,6 +26,7 @@ modules:
         - shengis/mako 
     install:
       packages:
+        - fastfetch
         - nvim
         - yazi
         - zoxide
@@ -34,6 +35,8 @@ modules:
         - kitty
         - lazygit
         - mako
+        - zsh-autosuggestions
+        - zsh-syntax-highlighting
     remove:
       packages:
         - firefox
