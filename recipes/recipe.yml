@@ -27,6 +27,7 @@ modules:
     install:
       packages:
         - fastfetch
+        - tree-sitter-cli
         - nvim
         - yazi
         - zoxide
