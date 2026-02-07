@@ -27,6 +27,7 @@ modules:
     install:
       packages:
         - zathura
+        - zathura-pdf-poppler
         - grimpicker
         - kde-connect
         - fastfetch
