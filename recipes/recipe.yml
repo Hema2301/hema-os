@@ -26,6 +26,8 @@ modules:
         - shengis/mako 
     install:
       packages:
+        - zathura
+        - grimpicker
         - kde-connect
         - fastfetch
         - tree-sitter-cli
@@ -54,14 +56,12 @@ modules:
         # If no repo information is specified, Flathub will be used by default
         install: # system flatpaks we want all users to have and not remove
           - org.mozilla.firefox
-          - com.ktechpit.colorsmith
           - org.libreoffice.LibreOffice
           - org.mozilla.Thunderbird
           - com.dropbox.Client
           - md.obsidian.Obsidian
           - com.ultimaker.cura
           - app.grayjay.Grayjay
-          - org.kde.okular
           - com.spotify.Client
           - com.sweethome3d.Sweethome3d
       - scope: user # Also add Flathub user repo, but no user packages
