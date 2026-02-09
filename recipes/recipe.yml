@@ -31,7 +31,6 @@ modules:
         - grimpicker
         - kde-connect
         - fastfetch
-        - tree-sitter-cli
         - nvim
         - yazi
         - zoxide
@@ -49,7 +48,6 @@ modules:
         - foot
         - just
         - dunst
-        - 1password
 
   - type: default-flatpaks
     configurations:
