@@ -49,6 +49,7 @@ modules:
         - foot
         - just
         - dunst
+        - 1password
 
   - type: default-flatpaks
     configurations:
