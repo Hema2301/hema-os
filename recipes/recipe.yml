@@ -26,8 +26,9 @@ modules:
         - shengis/mako 
     install:
       packages:
- #       - zathura
-#        - zathura-pdf-poppler
+        - stow
+        - zathura
+        - zathura-pdf-poppler
         - grimpicker
         - kde-connect
         - fastfetch
@@ -43,8 +44,6 @@ modules:
         - zsh-syntax-highlighting
     remove:
       packages:
-        - firefox
-        - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
         - foot
         - just
         - dunst
@@ -55,7 +54,6 @@ modules:
         scope: system
         # If no repo information is specified, Flathub will be used by default
         install: # system flatpaks we want all users to have and not remove
-          - org.mozilla.firefox
           - org.kde.krita
           - org.inkscape.Inkscape
           - org.libreoffice.LibreOffice
