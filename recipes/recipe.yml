@@ -24,6 +24,7 @@ modules:
         - dejan/lazygit
         - shengis/mako 
         - casjay/cmus
+        - alternateved/cliphist
     install:
       packages:
         - openscad
