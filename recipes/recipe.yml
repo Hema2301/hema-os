@@ -1,4 +1,3 @@
----
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 # image will be published to ghcr.io/<user>/<name>
 name: hema-os
@@ -24,8 +23,12 @@ modules:
         - lihaohong/yazi
         - dejan/lazygit
         - shengis/mako 
+        - casjay/cmus
     install:
       packages:
+        - openscad
+        - cmus
+        - cliphist
         - stow
         - zathura
         - zathura-pdf-poppler
@@ -54,6 +57,7 @@ modules:
         scope: system
         # If no repo information is specified, Flathub will be used by default
         install: # system flatpaks we want all users to have and not remove
+          - io.mpv.Mpv
           - org.kde.krita
           - org.inkscape.Inkscape
           - org.libreoffice.LibreOffice
