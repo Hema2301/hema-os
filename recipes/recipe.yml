@@ -23,12 +23,12 @@ modules:
         - lihaohong/yazi
         - dejan/lazygit
         - shengis/mako 
-        - casjay/cmus
         - alternateved/cliphist
+        - skoved/rmpc
     install:
       packages:
+        - rmpc
         - openscad
-        - cmus
         - cliphist
         - stow
         - zathura
@@ -58,6 +58,7 @@ modules:
         scope: system
         # If no repo information is specified, Flathub will be used by default
         install: # system flatpaks we want all users to have and not remove
+          - org.musicbrainz.Picard
           - io.mpv.Mpv
           - org.kde.krita
           - org.inkscape.Inkscape
