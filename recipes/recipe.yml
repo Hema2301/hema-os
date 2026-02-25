@@ -25,8 +25,10 @@ modules:
         - shengis/mako 
         - alternateved/cliphist
         - skoved/rmpc
+        - sneexy/zen-browser
     install:
       packages:
+        - zen-browser
         - htop
         - rmpc
         - openscad
