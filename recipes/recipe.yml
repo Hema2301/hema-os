@@ -25,10 +25,8 @@ modules:
         - shengis/mako 
         - alternateved/cliphist
         - skoved/rmpc
-        - sneexy/zen-browser
     install:
       packages:
-        - zen-browser
         - htop
         - rmpc
         - openscad
@@ -54,6 +52,8 @@ modules:
         - foot
         - just
         - dunst
+        - firefox
+        - firefox-langpacks
 
   - type: default-flatpaks
     configurations:
@@ -61,6 +61,7 @@ modules:
         scope: system
         # If no repo information is specified, Flathub will be used by default
         install: # system flatpaks we want all users to have and not remove
+          - app.zen_browser.zen
           - com.github.jeromerobert.pdfarranger
           - com.synology.SynologyDrive
           - org.musicbrainz.Picard
