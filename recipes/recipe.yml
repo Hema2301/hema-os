@@ -61,6 +61,7 @@ modules:
         scope: system
         # If no repo information is specified, Flathub will be used by default
         install: # system flatpaks we want all users to have and not remove
+          - com.discordapp.Discord
           - app.zen_browser.zen
           - com.github.jeromerobert.pdfarranger
           - com.synology.SynologyDrive
