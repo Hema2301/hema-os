@@ -76,7 +76,6 @@ modules:
           - app.grayjay.Grayjay
           - com.spotify.Client
           - com.sweethome3d.Sweethome3d
-      - scope: user # Also add Flathub user repo, but no user packages
 
   - type: bling
     install:
