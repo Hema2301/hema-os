@@ -27,7 +27,8 @@ modules:
         - skoved/rmpc
     install:
       packages:
-        - htop
+        - python3-pip
+        - btop
         - rmpc
         - openscad
         - cliphist
