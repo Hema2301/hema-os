@@ -27,7 +27,6 @@ modules:
         - skoved/rmpc
     install:
       packages:
-        - feh
         - python3-pip
         - btop
         - rmpc
