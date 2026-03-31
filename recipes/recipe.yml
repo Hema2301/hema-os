@@ -27,6 +27,7 @@ modules:
         - skoved/rmpc
     install:
       packages:
+        - keychain
         - python3-pip
         - btop
         - rmpc
