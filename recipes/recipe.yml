@@ -82,10 +82,6 @@ modules:
     install:
       - 1password
   
-  - type: script
-    snippets:
-      - "mkdir -p /var/lib/mpd"
-  
   - type: fonts
     fonts:
       nerd-fonts:
