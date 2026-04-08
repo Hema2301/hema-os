@@ -27,6 +27,7 @@ modules:
         - skoved/rmpc
     install:
       packages:
+        - yubikey-manager
         - python3-pip
         - btop
         - rmpc
@@ -62,6 +63,7 @@ modules:
         scope: system
         # If no repo information is specified, Flathub will be used by default
         install: # system flatpaks we want all users to have and not remove
+          - com.yubico.yubioath
           - org.stellarium.Stellarium
           - com.discordapp.Discord
           - app.zen_browser.zen
