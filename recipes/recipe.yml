@@ -27,6 +27,7 @@ modules:
         - skoved/rmpc
     install:
       packages:
+        - python3-reportlab
         - keychain
         - yubikey-manager
         - python3-pip
