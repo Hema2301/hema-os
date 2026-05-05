@@ -56,8 +56,6 @@ modules:
         - foot
         - just
         - dunst
-        - firefox
-        - firefox-langpacks
 
   - type: default-flatpaks
     configurations:
@@ -69,7 +67,6 @@ modules:
           - com.yubico.yubioath
           - org.stellarium.Stellarium
           - com.discordapp.Discord
-          - app.zen_browser.zen
           - com.github.jeromerobert.pdfarranger
           - com.synology.SynologyDrive
           - org.musicbrainz.Picard
