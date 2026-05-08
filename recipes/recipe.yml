@@ -81,7 +81,7 @@ modules:
           - com.spotify.Client
           - com.sweethome3d.Sweethome3d
   
-  type: script
+  - type: script
     snippets:
       - "curl -fsSL https://opencode.ai/install | bash"
 
