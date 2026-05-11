@@ -25,8 +25,10 @@ modules:
         - shengis/mako 
         - alternateved/cliphist
         - skoved/rmpc
+        - sureclaw/opencode
     install:
       packages:
+        - opencode
         - python3-reportlab
         - keychain
         - yubikey-manager
@@ -81,10 +83,6 @@ modules:
           - com.spotify.Client
           - com.sweethome3d.Sweethome3d
   
-  - type: script
-    snippets:
-      - "curl -fsSL https://opencode.ai/install | bash"
-
   - type: fonts
     fonts:
       nerd-fonts:
