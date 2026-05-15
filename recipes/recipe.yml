@@ -25,10 +25,8 @@ modules:
         - shengis/mako 
         - alternateved/cliphist
         - skoved/rmpc
-        - sureclaw/opencode
     install:
       packages:
-        - opencode
         - python3-reportlab
         - keychain
         - yubikey-manager
