@@ -19,6 +19,7 @@ modules:
   - type: dnf
     repos:
       copr:
+        - atim/spotify-tui
         - atim/starship
         - lihaohong/yazi
         - dejan/lazygit
@@ -27,6 +28,7 @@ modules:
         - skoved/rmpc
     install:
       packages:
+        - spotify-tui
         - python3-reportlab
         - keychain
         - yubikey-manager
