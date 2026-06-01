@@ -19,7 +19,6 @@ modules:
   - type: dnf
     repos:
       copr:
-        - atim/spotify-tui
         - atim/starship
         - lihaohong/yazi
         - dejan/lazygit
@@ -28,7 +27,6 @@ modules:
         - skoved/rmpc
     install:
       packages:
-        - spotify-tui
         - python3-reportlab
         - keychain
         - yubikey-manager
@@ -65,9 +63,9 @@ modules:
         scope: system
         # If no repo information is specified, Flathub will be used by default
         install: # system flatpaks we want all users to have and not remove
+          - org.mixxx.Mixxx
           - com.bitwarden.desktop
           - com.yubico.yubioath
-          - org.stellarium.Stellarium
           - com.discordapp.Discord
           - com.github.jeromerobert.pdfarranger
           - com.synology.SynologyDrive
