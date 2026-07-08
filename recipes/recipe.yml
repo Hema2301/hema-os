@@ -63,7 +63,6 @@ modules:
         scope: system
         # If no repo information is specified, Flathub will be used by default
         install: # system flatpaks we want all users to have and not remove
-          - org.mixxx.Mixxx
           - com.bitwarden.desktop
           - com.yubico.yubioath
           - com.discordapp.Discord
@@ -80,10 +79,6 @@ modules:
           - app.grayjay.Grayjay
           - com.spotify.Client
           - com.sweethome3d.Sweethome3d
-
-  - type: script
-    snippets:
-      - "curl -sSL -o argocd https://github.com/argoproj/argo-cd/releases/latest/download/argocd-linux-amd64 && chmod +x argocd && sudo mv argocd /usr/local/bin/"  
   
   - type: fonts
     fonts:
