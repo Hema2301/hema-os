@@ -80,7 +80,6 @@ modules:
           - md.obsidian.Obsidian
           - com.ultimaker.cura
           - app.grayjay.Grayjay
-          - com.spotify.Client
           - com.sweethome3d.Sweethome3d
   
   - type: fonts
